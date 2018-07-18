@@ -9,7 +9,7 @@ import java.io.*;
  */
 public class RunTest {
     public static void main(String[] args) throws Exception {
-        serializeNetease();
+        //serializeNetease();
         Netease netease = deserializeNetease();
         System.out.println(netease.toString());
 
